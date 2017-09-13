@@ -10,6 +10,7 @@ public class In extends A
 {
 	public static void main(String[] args)
 	{
-		print();
+		A a = new A();
+		a.print();
 	}
 }
